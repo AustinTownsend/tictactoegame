@@ -16,6 +16,8 @@
 
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Green;
             int player = 2; // to make sure player 1 starts
             int input = 0;
             bool inputCorrect = true;
